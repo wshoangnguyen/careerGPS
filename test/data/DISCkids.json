@@ -1,0 +1,137 @@
+[
+  {
+    "text": "Bạn bước vào khu rừng và thấy một con đường lạ. Bạn sẽ:",
+    "options": [
+      { "text": "Dẫn đầu và đi trước khám phá", "type": "D" },
+      { "text": "Rủ mọi người cùng đi cho vui", "type": "I" },
+      { "text": "Đi cùng nhóm để an toàn", "type": "S" },
+      { "text": "Quan sát kỹ rồi mới đi", "type": "C" }
+    ]
+  },
+  {
+    "text": "Bạn gặp một cây cầu gỗ cũ. Bạn sẽ:",
+    "options": [
+      { "text": "Đi qua ngay", "type": "D" },
+      { "text": "Vừa đi vừa nói chuyện cho đỡ sợ", "type": "I" },
+      { "text": "Đi chậm cùng mọi người", "type": "S" },
+      { "text": "Kiểm tra cầu trước khi đi", "type": "C" }
+    ]
+  },
+  {
+    "text": "Một người bạn bị lạc, bạn sẽ:",
+    "options": [
+      { "text": "Nhanh chóng đi tìm bạn ấy", "type": "D" },
+      { "text": "Gọi to để bạn ấy nghe thấy", "type": "I" },
+      { "text": "Ở lại chờ bạn quay lại", "type": "S" },
+      { "text": "Nhìn dấu vết để tìm bạn", "type": "C" }
+    ]
+  },
+  {
+    "text": "Bạn tìm thấy một chiếc rương bí mật, bạn sẽ:",
+    "options": [
+      { "text": "Mở ngay lập tức", "type": "D" },
+      { "text": "Gọi mọi người đến cùng mở", "type": "I" },
+      { "text": "Chờ mọi người quyết định", "type": "S" },
+      { "text": "Xem kỹ trước khi mở", "type": "C" }
+    ]
+  },
+  {
+    "text": "Nhóm cần chọn người dẫn đường, bạn sẽ:",
+    "options": [
+      { "text": "Nhận làm ngay", "type": "D" },
+      { "text": "Đề xuất cùng nhau quyết định", "type": "I" },
+      { "text": "Ủng hộ người khác", "type": "S" },
+      { "text": "Chọn người giỏi nhất", "type": "C" }
+    ]
+  },
+  {
+    "text": "Bạn thấy một con vật dễ thương, bạn sẽ:",
+    "options": [
+      { "text": "Lại gần ngay", "type": "D" },
+      { "text": "Nói chuyện và chơi với nó", "type": "I" },
+      { "text": "Nhẹ nhàng quan sát", "type": "S" },
+      { "text": "Xem nó có nguy hiểm không", "type": "C" }
+    ]
+  },
+  {
+    "text": "Trời bắt đầu mưa, bạn sẽ:",
+    "options": [
+      { "text": "Nhanh chóng tìm chỗ trú", "type": "D" },
+      { "text": "Cười và chơi dưới mưa", "type": "I" },
+      { "text": "Ở gần bạn bè", "type": "S" },
+      { "text": "Tìm nơi trú an toàn nhất", "type": "C" }
+    ]
+  },
+  {
+    "text": "Bạn phải giải một câu đố để đi tiếp, bạn sẽ:",
+    "options": [
+      { "text": "Thử ngay", "type": "D" },
+      { "text": "Thảo luận với mọi người", "type": "I" },
+      { "text": "Chờ người khác thử trước", "type": "S" },
+      { "text": "Suy nghĩ thật kỹ", "type": "C" }
+    ]
+  },
+  {
+    "text": "Một bạn trong nhóm buồn, bạn sẽ:",
+    "options": [
+      { "text": "Động viên mạnh mẽ", "type": "D" },
+      { "text": "Làm bạn ấy cười", "type": "I" },
+      { "text": "Ở bên cạnh an ủi", "type": "S" },
+      { "text": "Hỏi lý do và giúp giải quyết", "type": "C" }
+    ]
+  },
+  {
+    "text": "Bạn thấy một con đường tắt, bạn sẽ:",
+    "options": [
+      { "text": "Đi thử ngay", "type": "D" },
+      { "text": "Rủ mọi người đi cùng", "type": "I" },
+      { "text": "Hỏi ý kiến nhóm", "type": "S" },
+      { "text": "Xem có an toàn không", "type": "C" }
+    ]
+  },
+  {
+    "text": "Bạn được giao nhiệm vụ, bạn sẽ:",
+    "options": [
+      { "text": "Làm ngay", "type": "D" },
+      { "text": "Làm cùng bạn bè", "type": "I" },
+      { "text": "Làm cẩn thận từng bước", "type": "S" },
+      { "text": "Làm thật chính xác", "type": "C" }
+    ]
+  },
+  {
+    "text": "Bạn đến một ngã ba đường, bạn sẽ:",
+    "options": [
+      { "text": "Chọn nhanh một hướng", "type": "D" },
+      { "text": "Thảo luận cùng nhóm", "type": "I" },
+      { "text": "Chờ mọi người quyết định", "type": "S" },
+      { "text": "Xem bản đồ", "type": "C" }
+    ]
+  },
+  {
+    "text": "Bạn tìm thấy kho báu, bạn sẽ:",
+    "options": [
+      { "text": "Lấy ngay", "type": "D" },
+      { "text": "Chia sẻ niềm vui với mọi người", "type": "I" },
+      { "text": "Đợi mọi người cùng mở", "type": "S" },
+      { "text": "Kiểm tra bên trong", "type": "C" }
+    ]
+  },
+  {
+    "text": "Khi chơi game, bạn thích:",
+    "options": [
+      { "text": "Chiến thắng", "type": "D" },
+      { "text": "Chơi cùng bạn", "type": "I" },
+      { "text": "Chơi thoải mái", "type": "S" },
+      { "text": "Chơi đúng luật", "type": "C" }
+    ]
+  },
+  {
+    "text": "Kết thúc hành trình, bạn tự hào vì:",
+    "options": [
+      { "text": "Bạn đã dẫn đầu", "type": "D" },
+      { "text": "Bạn làm mọi người vui", "type": "I" },
+      { "text": "Bạn giúp đỡ mọi người", "type": "S" },
+      { "text": "Bạn làm mọi thứ thật tốt", "type": "C" }
+    ]
+  }
+]

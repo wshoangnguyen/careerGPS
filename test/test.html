@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Trắc nghiệm tính cách - DISC & MBTI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>🧠 Trắc nghiệm tính cách - Khám phá bản thân</h1>
+        </header>
+
+        <main class="test-container" id="app">
+            <!-- Màn hình 1: Nhập thông tin -->
+            <div id="infoScreen" class="screen">
+                <div class="info-form">
+                    <h2>📝 Thông tin của bạn</h2>
+    <div class="form-row">
+        <div class="form-group">
+            <label>Họ và tên *</label>
+            <input type="text" id="fullName" placeholder="Nhập họ tên" class="form-input">
+        </div>
+        <div class="form-group">
+            <label>Số điện thoại</label>
+            <input type="tel" id="phone" placeholder="Nhập số điện thoại" class="form-input">
+        </div>
+        <div class="form-group">
+            <label>Email *</label>
+            <input type="email" id="email" placeholder="Nhập email" class="form-input">
+        </div>
+    </div>
+                    
+                    <h2>📋 Chọn bài test</h2>
+                    <div class="test-selector">
+                        <div class="test-card" data-test="disc">
+                            <div class="test-icon">🎯</div>
+                            <h3>DISC Test</h3>
+                            <p>Đánh giá phong cách làm việc: D, I, S, C</p>
+                            <span class="test-time">~5 phút</span>
+                        </div>
+                        <div class="test-card" data-test="mbti">
+                            <div class="test-icon">🧩</div>
+                            <h3>MBTI Test</h3>
+                            <p>16 loại tính cách: Introvert/Extrovert, v.v.</p>
+                            <span class="test-time">~10 phút</span>
+                        </div>
+                    </div>
+                    
+                    <button class="btn btn-primary" id="startTestBtn" style="width: 100%;" disabled>▶ Bắt đầu test</button>
+                </div>
+            </div>
+            
+            <!-- Màn hình 2: Làm test -->
+            <div id="testScreen" class="screen" style="display: none;">
+                <div class="test-header">
+                    <button class="btn-back" id="backToInfoBtn">← Quay lại</button>
+                    <h2 id="testTitle"></h2>
+                </div>
+                <div id="testContent"></div>
+                <div id="resultContainer" style="display: none;"></div>
+            </div>
+        </main>
+
+        <footer class="app-footer">
+            <p>Kết quả chỉ mang tính chất tham khảo</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+    <div class="loading-content">
+        <div class="loading-spinner"></div>
+        <p>Đang xử lý kết quả...</p>
+        <p class="loading-sub">Phân tích tính cách của bạn ✨</p>
+    </div>
+</div>
+</body>
+<!-- Loading Overlay -->
+
+</html>

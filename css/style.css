@@ -1,0 +1,646 @@
+/* ====================================
+   RESET CSS & CƠ BẢN
+   ==================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+::selection {
+    background: #f39c12;
+    color: white;
+}
+
+/* ====================================
+   MÀU SẮC CHỦ ĐẠO (TONE CAM VÀNG)
+   ==================================== */
+:root {
+    --primary: #f39c12;           /* cam chính */
+    --primary-light: #f5b041;     /* cam sáng */
+    --primary-dark: #e67e22;      /* cam đậm */
+    --primary-soft: #fef9e8;      /* vàng kem nhẹ (nền) */
+    --text-dark: #2c3e50;         /* xanh than đen */
+    --text-light: #5d6d7e;        /* xám xanh nhạt */
+    --text-muted: #95a5a6;        /* xám tro */
+    --white: #ffffff;
+    --shadow-sm: 0 5px 20px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.1);
+    --shadow-hover: 0 20px 40px rgba(243, 156, 18, 0.15);
+    --transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+}
+
+/* ====================================
+   TYPOGRAPHY
+   ==================================== */
+h1, h2, h3, h4 {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: var(--text-dark);
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: var(--primary);
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    h1 { font-size: 36px; }
+    h2 { font-size: 28px; }
+    .section-title { font-size: 32px; margin-bottom: 40px; }
+}
+
+/* ====================================
+   CONTAINER & LAYOUT
+   ==================================== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+section {
+    padding: 100px 0;
+    position: relative;
+}
+
+/* Section xen kẽ màu nền */
+section:nth-child(even) {
+    background: var(--primary-soft);
+}
+
+section:nth-child(odd) {
+    background: var(--white);
+}
+
+/* ====================================
+   NÚT BẤM
+   ==================================== */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: var(--transition);
+    cursor: pointer;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: white;
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.btn-outline:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* ====================================
+   HEADER & NAVIGATION
+   ==================================== */
+header {
+    background: var(--white);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: var(--transition);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--primary);
+    text-decoration: none;
+    letter-spacing: -0.02em;
+    transition: var(--transition);
+}
+
+.logo:hover {
+    color: var(--primary-dark);
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 500;
+    transition: var(--transition);
+    position: relative;
+}
+
+.nav-menu li a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary);
+    transition: var(--transition);
+}
+
+.nav-menu li a:hover::after,
+.nav-menu li a.active::after {
+    width: 100%;
+}
+
+.nav-menu li a:hover {
+    color: var(--primary);
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--text-dark);
+    transition: var(--transition);
+}
+
+.hamburger:hover {
+    color: var(--primary);
+}
+
+/* ====================================
+   MOBILE MENU
+   ==================================== */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 74px;
+        flex-direction: column;
+        background: var(--white);
+        width: 100%;
+        text-align: center;
+        transition: 0.4s ease;
+        box-shadow: var(--shadow-md);
+        padding: 30px 0;
+        gap: 20px;
+        z-index: 999;
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    section {
+        padding: 70px 0;
+    }
+}
+
+/* ====================================
+   HERO SECTION
+   ==================================== */
+.hero {
+    background: linear-gradient(135deg, var(--primary-soft) 0%, var(--white) 100%);
+    padding: 120px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    margin-bottom: 24px;
+    color: var(--text-dark);
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: var(--text-light);
+    margin-bottom: 32px;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: var(--shadow-lg);
+    transition: var(--transition);
+}
+
+.hero-image img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 0;
+        text-align: center;
+    }
+    
+    .hero .container {
+        flex-direction: column;
+    }
+    
+    .hero-buttons {
+        justify-content: center;
+    }
+}
+
+/* ====================================
+   FEATURES / CARD GRID
+   ==================================== */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.feature-card,
+.service-card {
+    background: var(--white);
+    border-radius: 24px;
+    padding: 40px 32px;
+    text-align: center;
+    transition: var(--transition);
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-card:hover,
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+}
+
+.feature-icon {
+    font-size: 56px;
+    margin-bottom: 24px;
+    color: var(--primary);
+}
+
+.feature-card h3,
+.service-card h3 {
+    margin-bottom: 16px;
+    color: var(--text-dark);
+}
+
+.feature-card p,
+.service-card p {
+    color: var(--text-light);
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+/* ====================================
+   STATS SECTION
+   ==================================== */
+.stats {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: 80px 0;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+    text-align: center;
+}
+
+.stat-item h2 {
+    font-size: 52px;
+    margin-bottom: 12px;
+    font-weight: 800;
+}
+
+.stat-item p {
+    font-size: 18px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .stat-item h2 { font-size: 40px; }
+}
+
+/* ====================================
+   SERVICES GRID
+   ==================================== */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 35px;
+}
+
+/* ====================================
+   TESTIMONIALS SLIDER
+   ==================================== */
+.testimonials {
+    background: var(--white);
+}
+
+.testimonial-slider {
+    max-width: 850px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 380px;
+}
+
+.testimonial-item {
+    text-align: center;
+    padding: 40px;
+    background: var(--primary-soft);
+    border-radius: 30px;
+    transition: var(--transition);
+}
+
+.testimonial-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    object-fit: cover;
+    border: 4px solid var(--primary);
+}
+
+.testimonial-text {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 24px;
+    color: var(--text-dark);
+    line-height: 1.7;
+}
+
+.testimonial-name {
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.slider-nav {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.slider-nav button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    margin: 0 12px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: var(--transition);
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.slider-nav button:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+/* ====================================
+   FOOTER
+   ==================================== */
+footer {
+    background: var(--text-dark);
+    color: white;
+    padding: 70px 0 30px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-col h3 {
+    margin-bottom: 24px;
+    color: var(--primary);
+    font-size: 20px;
+}
+
+.footer-col p {
+    color: #b0bec5;
+    line-height: 1.7;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col a {
+    color: #b0bec5;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-col a:hover {
+    color: var(--primary);
+    padding-left: 5px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    font-size: 28px;
+    color: #b0bec5;
+}
+
+.social-links a:hover {
+    color: var(--primary);
+    transform: translateY(-3px);
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    color: #95a5a6;
+}
+
+/* ====================================
+   HIỆU ỨNG SCROLL ANIMATION
+   (KẾT HỢP VỚI MAIN.JS)
+   ==================================== */
+.feature-card,
+.service-card,
+.stat-item,
+.testimonial-item,
+.hero,
+.section-title,
+.footer-col {
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+}
+
+/* ====================================
+   RESPONSIVE & UTILITIES
+   ==================================== */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 20px;
+    }
+    
+    .features-grid,
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        padding: 60px 0;
+    }
+    
+    .feature-card,
+    .service-card {
+        padding: 30px 20px;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 250px;
+        text-align: center;
+    }
+    
+    .testimonial-item {
+        padding: 30px 20px;
+    }
+    
+    .testimonial-text {
+        font-size: 16px;
+    }
+}
+
+/* ====================================
+   ANIMATION KHÁC
+   ==================================== */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Lớp hỗ trợ cho animation nếu cần */
+.fade-in-up {
+    animation: fadeInUp 0.7s cubic-bezier(0.2, 0.9, 0.4, 1.1) forwards;
+}

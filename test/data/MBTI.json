@@ -1,0 +1,174 @@
+{
+  "title": "Bài test tính cách MBTI",
+  "description": "Hãy chọn câu trả lời mô tả đúng nhất về bạn, không có đáp án đúng hay sai.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Sau một tuần làm việc căng thẳng, cuối tuần bạn thích:",
+      "options": ["Gặp gỡ bạn bè, tham gia hoạt động xã hội", "Ở nhà một mình hoặc với gia đình thân để nạp lại năng lượng"],
+      "dimension": "EI"
+    },
+    {
+      "id": 2,
+      "text": "Khi tham gia một buổi thảo luận nhóm, bạn thường:",
+      "options": ["Nói nhiều và chia sẻ ý kiến ngay lập tức", "Lắng nghe nhiều hơn, suy nghĩ kỹ rồi mới phát biểu"],
+      "dimension": "EI"
+    },
+    {
+      "id": 3,
+      "text": "Khi bắt đầu một dự án mới, bạn muốn:",
+      "options": ["Lên kế hoạch chi tiết từng bước trước khi bắt đầu", "Bắt đầu ngay và điều chỉnh khi cần thiết"],
+      "dimension": "JP"
+    },
+    {
+      "id": 4,
+      "text": "Bạn cảm thấy thoải mái hơn khi:",
+      "options": ["Quyết định dứt khoát và đi đến kết thúc", "Để ngỏ nhiều lựa chọn, có thể thay đổi sau"],
+      "dimension": "JP"
+    },
+    {
+      "id": 5,
+      "text": "Bạn thiên về kiểu người:",
+      "options": ["Thực tế, chú trọng vào sự việc cụ thể", "Sáng tạo, thích suy nghĩ về ý tưởng và khả năng tương lai"],
+      "dimension": "SN"
+    },
+    {
+      "id": 6,
+      "text": "Trong một bài thuyết trình, bạn thích:",
+      "options": ["Đưa ra số liệu, dẫn chứng thực tế, cụ thể", "Đưa ra ý tưởng lớn, hình ảnh ẩn dụ và tầm nhìn"],
+      "dimension": "SN"
+    },
+    {
+      "id": 7,
+      "text": "Khi đưa ra quyết định quan trọng, bạn dựa vào:",
+      "options": ["Logic, phân tích, các nguyên tắc khách quan", "Cảm xúc, giá trị cá nhân và tác động đến người khác"],
+      "dimension": "TF"
+    },
+    {
+      "id": 8,
+      "text": "Bạn được đánh giá là người:",
+      "options": ["Công bằng, khách quan, ít khi để cảm tính xen vào", "Đồng cảm, hay quan tâm, coi trọng hòa khí"],
+      "dimension": "TF"
+    },
+    {
+      "id": 9,
+      "text": "Bạn thích làm việc trong môi trường:",
+      "options": ["Có cấu trúc rõ ràng, quy trình cụ thể", "Linh hoạt, tự do, ít quy tắc cứng nhắc"],
+      "dimension": "JP"
+    },
+    {
+      "id": 10,
+      "text": "Khi gặp người lạ, bạn thường:",
+      "options": ["Chủ động làm quen trước", "Đợi người kia làm quen hoặc nếu cần thiết mới bắt chuyện"],
+      "dimension": "EI"
+    },
+    {
+      "id": 11,
+      "text": "Bạn thích đọc loại sách nào hơn:",
+      "options": ["Hướng dẫn thực tế, kỹ năng áp dụng ngay", "Tiểu thuyết, triết học, khám phá ý tưởng mới"],
+      "dimension": "SN"
+    },
+    {
+      "id": 12,
+      "text": "Khi có tranh luận, bạn thường:",
+      "options": ["Bảo vệ quan điểm dựa trên lý lẽ và sự thật", "Tìm cách dung hòa, giữ gìn mối quan hệ"],
+      "dimension": "TF"
+    },
+    {
+      "id": 13,
+      "text": "Bạn thích lịch trình hàng ngày:",
+      "options": ["Có kế hoạch cụ thể, làm theo lịch", "Linh hoạt, tùy hứng theo cảm hứng"],
+      "dimension": "JP"
+    },
+    {
+      "id": 14,
+      "text": "Bạn cảm thấy thoải mái nhất khi:",
+      "options": ["Làm việc nhóm, tương tác nhiều với mọi người", "Làm việc độc lập, ít bị làm phiền"],
+      "dimension": "EI"
+    },
+    {
+      "id": 15,
+      "text": "Bạn chú ý đến điều gì đầu tiên khi tiếp cận vấn đề:",
+      "options": ["Chi tiết thực tế, những gì đang tồn tại", "Bức tranh tổng thể, những khả năng có thể xảy ra"],
+      "dimension": "SN"
+    },
+    {
+      "id": 16,
+      "text": "Bạn đánh giá cao hơn ở một nhà lãnh đạo:",
+      "options": ["Sự công bằng, rõ ràng, quyết đoán", "Sự cảm thông, lắng nghe, coi trọng con người"],
+      "dimension": "TF"
+    },
+    {
+      "id": 17,
+      "text": "Bạn thích kết thúc công việc:",
+      "options": ["Trước hạn để còn chỉnh sửa", "Sát hạn hoặc đúng hạn, nhưng thường là vừa kịp"],
+      "dimension": "JP"
+    },
+    {
+      "id": 18,
+      "text": "Trong bữa tiệc, bạn thường:",
+      "options": ["Ở giữa đám đông, trò chuyện sôi nổi", "Ở bên ngoài hoặc nói chuyện với một vài người"],
+      "dimension": "EI"
+    },
+    {
+      "id": 19,
+      "text": "Bạn thích hướng dẫn làm việc:",
+      "options": ["Theo từng bước rõ ràng, có ví dụ cụ thể", "Theo nguyên tắc chung, để tự tìm cách"],
+      "dimension": "SN"
+    },
+    {
+      "id": 20,
+      "text": "Bạn thường bị ảnh hưởng bởi:",
+      "options": ["Lời chỉ trích mang tính xây dựng dù thẳng thắn", "Lời nói thiếu tế nhị dù có đúng"],
+      "dimension": "TF"
+    },
+    {
+      "id": 21,
+      "text": "Bạn thích các dự án:",
+      "options": ["Có deadline rõ ràng, cột mốc cụ thể", "Mở, không bị ràng buộc về thời gian quá chặt"],
+      "dimension": "JP"
+    },
+    {
+      "id": 22,
+      "text": "Bạn có xu hướng suy nghĩ bằng cách:",
+      "options": ["Nói ra thành lời, trao đổi với người khác", "Suy nghĩ trong đầu, viết ra hoặc tự mình ngẫm nghĩ"],
+      "dimension": "EI"
+    },
+    {
+      "id": 23,
+      "text": "Bạn tin tưởng hơn vào:",
+      "options": ["Kinh nghiệm thực tế đã trải qua", "Trực giác và cảm nhận bên trong"],
+      "dimension": "SN"
+    },
+    {
+      "id": 24,
+      "text": "Bạn cảm thấy tệ nhất khi:",
+      "options": ["Bị đối xử bất công", "Làm tổn thương ai đó dù không cố ý"],
+      "dimension": "TF"
+    },
+    {
+      "id": 25,
+      "text": "Bạn thường mang theo:",
+      "options": ["Danh sách việc cần làm hoặc kế hoạch chi tiết", "Rất ít đồ, thích tùy cơ ứng biến"],
+      "dimension": "JP"
+    },
+    {
+      "id": 26,
+      "text": "Khi còn nhỏ, bạn thường được miêu tả là:",
+      "options": ["Hòa đồng, dễ kết bạn", "Trầm tính, thích chơi một mình hoặc ít bạn"],
+      "dimension": "EI"
+    },
+    {
+      "id": 27,
+      "text": "Bạn học hỏi tốt nhất qua:",
+      "options": ["Làm thực hành, chạm vào việc cụ thể", "Suy nghĩ, đọc hiểu lý thuyết, liên hệ ý tưởng"],
+      "dimension": "SN"
+    },
+    {
+      "id": 28,
+      "text": "Khi ai đó khóc trước mặt, bạn thường:",
+      "options": ["Phân tích lý do, tìm giải pháp logic", "Động viên, an ủi bằng cảm xúc"],
+      "dimension": "TF"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Trắc nghiệm tính cách DISC",
+  "description": "Với mỗi câu, hãy chọn mức độ đồng ý từ 1 (Hoàn toàn không đồng ý) đến 5 (Hoàn toàn đồng ý)",
+  "scale": {
+    "1": "Hoàn toàn không đồng ý",
+    "2": "Không đồng ý",
+    "3": "3",
+    "4": "Đồng ý",
+    "5": "Hoàn toàn đồng ý"
+  },
+  "questions": [
+    { "id": 1, "text": "Tôi thích dẫn đầu và chịu trách nhiệm trong công việc", "type": "D" },
+    { "id": 2, "text": "Tôi dễ dàng kết nối và trò chuyện với người lạ", "type": "I" },
+    { "id": 3, "text": "Tôi thích môi trường làm việc ổn định, ít thay đổi", "type": "S" },
+    { "id": 4, "text": "Tôi thường kiểm tra lại công việc để đảm bảo không có sai sót", "type": "C" },
+    { "id": 5, "text": "Tôi ra quyết định nhanh chóng và dứt khoát", "type": "D" },
+    { "id": 6, "text": "Tôi thích được mọi người chú ý và công nhận", "type": "I" },
+    { "id": 7, "text": "Tôi tránh những xung đột và thích sự hài hòa", "type": "S" },
+    { "id": 8, "text": "Tôi làm việc dựa trên quy trình và dữ liệu, không dựa vào cảm tính", "type": "C" },
+    { "id": 9, "text": "Tôi thích thử thách và cạnh tranh", "type": "D" },
+    { "id": 10, "text": "Tôi thường là người tạo ra bầu không khí vui vẻ trong nhóm", "type": "I" },
+    { "id": 11, "text": "Tôi kiên nhẫn và sẵn sàng giúp đỡ người khác", "type": "S" },
+    { "id": 12, "text": "Tôi ghét sự cẩu thả và thiếu chính xác", "type": "C" },
+    { "id": 13, "text": "Tôi thích kiểm soát tình huống thay vì bị kiểm soát", "type": "D" },
+    { "id": 14, "text": "Tôi nói nhiều và dễ truyền cảm hứng cho người khác", "type": "I" },
+    { "id": 15, "text": "Tôi trung thành và đáng tin cậy trong các mối quan hệ", "type": "S" },
+    { "id": 16, "text": "Tôi thích phân tích vấn đề một cách có hệ thống", "type": "C" },
+    { "id": 17, "text": "Tôi không ngại đưa ra ý kiến trái chiều", "type": "D" },
+    { "id": 18, "text": "Tôi thích làm việc nhóm hơn làm việc một mình", "type": "I" },
+    { "id": 19, "text": "Tôi khó thích nghi với sự thay đổi đột ngột", "type": "S" },
+    { "id": 20, "text": "Tôi chú ý đến chi tiết và tuân thủ quy tắc", "type": "C" },
+    { "id": 21, "text": "Tôi thích đặt mục tiêu cao và đạt được nó", "type": "D" },
+    { "id": 22, "text": "Tôi thích sự sôi động và nhiều hoạt động", "type": "I" },
+    { "id": 23, "text": "Tôi lắng nghe nhiều hơn nói", "type": "S" },
+    { "id": 24, "text": "Tôi cảm thấy khó chịu khi mọi thứ không có tổ chức", "type": "C" }
+  ]
+}
